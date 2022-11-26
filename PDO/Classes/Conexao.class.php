@@ -7,7 +7,7 @@ final class Conexao{
     public static function conectar()
     {
         if(!(defined('db_user'))){
-            define('db_user', 'root');
+            define('db_user', 'eloizy');
         }
         if(!defined('db_host')){
             define('db_host', 'localhost');
